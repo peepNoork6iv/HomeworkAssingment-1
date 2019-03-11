@@ -59,7 +59,8 @@ let favoriteSong = {
             "I’m on the highway to hell"
         ]
     },
-    authors : ["Bon Scott", " Angus Young", " Malcolm Young"]
+    authors : ["Bon Scott", " Angus Young", " Malcolm Young"],
+    goodSong : true,
 };
 
 
@@ -77,6 +78,7 @@ let lastChorus = favoriteSong.lyrics.lastChorus;
 let puente = favoriteSong.lyrics.puente;
 let outro = favoriteSong.lyrics.outro;
 let authors = favoriteSong.authors;
+let goodSong = favoriteSong.goodSong;
 
 //at last lets console log favoriteSong object
 
@@ -92,6 +94,7 @@ console.log("Genre: " + genre);
 console.log("Length: " + length);
 console.log("Year: " + year);
 console.log("Song authors: " + authors);
+console.log("Good song: " + goodSong);
 console.log(firstVerse);
 console.log(chorus);
 console.log(secondVerse);
